@@ -43,3 +43,14 @@ print("current position {latitude} {longitude}".format(latitude="60N", longitude
 print("Galactic position x={pos[0]}, y={pos[1]}, z={pos[2]}".format(pos=(65.2,23.1,82.2)))
 import math
 print("Math constants: pi={m.pi}, e={m.e}".format(m=math))
+print("Math constants: pi={m.pi:.3f}, e={m.e:.3f}".format(m=math))
+value = 4 * 20
+print('the value is {value}'.format(value=value))
+
+# using f string instead of format
+value = 4 * 20
+print(f'the value is {value}')
+import datetime
+print(f'the current time is {datetime.datetime.now().isoformat()}.')
+print(f'Math constants: pi={math.pi}, e={math.e}')
+print(f'Math constants: pi={math.pi:.3f}, e={math.e:.3f}')
