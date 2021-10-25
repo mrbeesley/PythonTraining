@@ -151,5 +151,14 @@ def sets_in_python():
     print(' 5. the pprint module supports pretty printing of compound data structures')
 
 
+def exceptions_in_python():
+    print('=================================Exceptions in Python=================================')
+    print(' 1. Exceptions enable EAFP (easier to ask forgiveness)')
+    print(' 2. without exceptions error handling is interspersed in program flow')
+    print(' 3. exceptions can be handled non-locally')
+    print(' 4. Exxceptions are not easily ignored while error codes are silent by default')
+
+
+
 if __name__ == '__main__':
     course_notes()
